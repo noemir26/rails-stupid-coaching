@@ -1,0 +1,9 @@
+<div class="question bg-light m-2 px-1 py-2 border-left border-5">
+  <p><%= @question %></p>
+  <p><em>- You</em></p>
+</div>
+<div class="answer m-2 px-1 py-2">
+  <p><%= @answer %></p>
+  <p><em>- Your coach</em></p>
+</div>
+<button class="btn btn-light w-25"><%= link_to "Ask a new question", ask_path, class: "text-decoration-none"%></button>
